@@ -1,0 +1,17 @@
+.menuContainer{
+  display: grid;
+  grid-template-rows:  max-content 1fr;
+  place-items: center;
+  gap:5px;
+}
+.menuContainer div{
+    margin-bottom: 20px;
+}
+.menuHeader{
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid salmon;
+    padding:10px
+}
+.menuContent{
+    margin-bottom: 20px;
+}

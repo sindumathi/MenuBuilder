@@ -1,6 +1,7 @@
 body{
     font-family: 'Lucida Sans';
     background-color:rgb(248, 248, 237);
+    border-bottom: 50px solid gold;
     margin:0;
 }
 .outerContainer{
@@ -23,6 +24,9 @@ body{
 
 .imageContainer img{
     max-width: 200px;
+}
+.priceContainer{
+    text-align: right;
 }
 
 .alignContainerRight{
@@ -52,4 +56,55 @@ body{
 
 .maroonText{
     color:maroon;
+}
+.orderContainer{
+    margin:10px;
+    text-align: center;
+}
+.priceContainer{
+    width:90%;
+}
+#order{
+    padding:10px;
+    background-color: goldenrod;
+    border:1px solid goldenrod;
+    border-radius: 5px;
+}
+#order:hover{
+    cursor: pointer;
+}
+#totalPrice{
+    margin:10px;
+}
+#add, #minus, #total{
+    font-size:medium;
+    padding:10px;
+    margin:5px;
+}
+#add{
+    color: green;
+}
+#minus{
+    color: red;
+}
+
+#add, #minus{
+    border: 1px solid grey;
+    border-radius:10px;
+     font-weight: 800;
+    
+}
+#add:hover, #minus:hover{
+    cursor: pointer;
+}
+#add:active{
+background-color: green;
+color:white;
+}
+#minus:active{
+    background-color: red;
+    color:white;
+}
+#total, #totalPrice{
+    border-bottom: 1px solid grey;
 }
